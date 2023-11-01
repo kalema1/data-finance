@@ -33,7 +33,7 @@ export default function SignInForm() {
               className={styles.input}
               id="password"
               type="password"
-              placeholder="Enter your username"
+              placeholder="Enter your password"
             />
           </div>
           <button className={styles.formButton}>Sign In</button>
