@@ -1,0 +1,66 @@
+.cardSection {
+  background-color: white;
+  margin: 9.6rem 0;
+}
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5.2rem;
+  padding: 9.6rem 0;
+}
+.outerContainer {
+  border-radius: 1rem;
+  box-shadow: 0px 7px 11px 0px rgba(107, 114, 128, 0.75);
+  transition: 0.3s;
+}
+.outerContainer:hover {
+  transform: scale(1.1);
+}
+.partner {
+  background-color: #e2e8f0;
+}
+.cardContainer {
+  padding: 4.4rem;
+  text-align: center;
+}
+.cardImg {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 2.4rem;
+}
+.cardHeading {
+  font-size: 2.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1.5px solid #d1d5db;
+}
+.cardpara1 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1.5px solid #d1d5db;
+}
+.btnContainer {
+  margin: 2.4rem 0 2.4rem 0;
+}
+/*********************************/
+/**BELOW 1032px **/
+/*********************************/
+@media (max-width: 65em) {
+  .cardGrid {
+    gap: 3.2rem;
+  }
+  .cardHeading {
+    font-size: 2rem;
+  }
+}
+
+/*********************************/
+/**BELOW 846px **/
+/*********************************/
+@media (max-width: 52em) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+}

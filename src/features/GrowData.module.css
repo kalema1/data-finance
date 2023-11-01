@@ -1,0 +1,58 @@
+.heroContainer {
+  text-align: center;
+}
+.growDataSection {
+  margin: 18.9rem 0;
+}
+.heroPara {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #34d399;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+.heroHeading {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: aliceblue;
+  margin-bottom: 2.4rem;
+}
+.heroSubheading {
+  font-size: 3.2rem;
+  color: aliceblue;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.heroPara.paraColor {
+  color: #bfdbfe;
+}
+.typed {
+  color: #bfdbfe;
+}
+
+/*********************************/
+/**BELOW 677px **/
+/*********************************/
+@media (max-width: 42em) {
+  .heroHeading {
+    font-size: 3.2rem;
+  }
+  .heroSubheading {
+    font-size: 2.4rem;
+  }
+}
+
+/*********************************/
+/**BELOW 465px **/
+/*********************************/
+@media (max-width: 29em) {
+  .heroSubheading {
+    font-size: 1.6rem;
+  }
+  .heroPara {
+    font-size: 1.2rem;
+  }
+}

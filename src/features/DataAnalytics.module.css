@@ -1,0 +1,79 @@
+.dataAnalyticsSection {
+  background-color: white;
+  margin: 9.6rem 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+  padding: 6.4rem 0;
+}
+.img {
+  width: 90%;
+}
+.dataAnayticsContainer {
+  align-self: center;
+}
+.dataAnalytiscPara1 {
+  color: #34d399;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  font-weight: 500;
+}
+.heading {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+.dataAnalytiscPara2 {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 2.4rem;
+}
+
+/*******************/
+/*BELOW 1200PX FOR LANDSCALE TABLETS*/
+/******************/
+@media (max-width: 75em) {
+  .heading {
+    font-size: 2.4rem;
+  }
+  .dataAnalytiscPara2 {
+    font-size: 1.4rem;
+  }
+  .grid {
+    gap: 4.8rem;
+  }
+}
+
+/*********************************/
+/**BELOW 846px **/
+/*********************************/
+@media (max-width: 52em) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .dataAnayticsContainer {
+    text-align: center;
+  }
+}
+
+/*********************************/
+/**BELOW 677px **/
+/*********************************/
+@media (max-width: 42em) {
+  .heading {
+    font-size: 2.4rem;
+  }
+  .dataAnalytiscPara2 {
+    font-size: 1.2rem;
+  }
+}
+
+/*********************************/
+/**BELOW 465px **/
+/*********************************/
+@media (max-width: 29em) {
+  .heading {
+    font-size: 1.6rem;
+  }
+}
